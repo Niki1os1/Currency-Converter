@@ -9,7 +9,7 @@ public class Main {
         if (sb.lastIndexOf("<Value>") != -1) {
             String text3 = sb.substring(sb.lastIndexOf("<Value>") + 7, sb.lastIndexOf("</Value>"));
 
-            System.out.print("Стоимость: " + text3 + ". ");
+            System.out.print("Price: " + text3 + ". ");
             sb.setLength(sb.length()-(sb.length()-sb.lastIndexOf("<Value>")));
         }
 
